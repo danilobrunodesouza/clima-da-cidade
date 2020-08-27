@@ -33,9 +33,7 @@ export class CanvasComponent implements OnInit {
 
   draw() {
     this.drawSky();
-    this.airplane.draw();
-    
-    
+    this.airplane.draw(); 
   }
 
   drawSky() {
